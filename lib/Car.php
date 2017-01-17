@@ -80,6 +80,7 @@ class Car {
 
 }
 
-//car = getter / setter / my car = constructeur et définir les propriétés de ma voiture 
+//car = getter / setter / 
+//my car = constructeur et définir les propriétés de ma voiture 
 //index.php = afficher les proriétés de ma voiture 
 //last étape = créer un formulaire qui modifie ces proriétés et dans my car une function saveFile qui créé un json de ma voiture
