@@ -10,7 +10,13 @@ $car = new MyCar();
 </head>
 <body>
 	<h1>My Car</h1>
-<p><?= $car->getManufacturer() ?></p>
+<p>Constructeur : <?=  $car->getManufacturer() ?></p>
+<p>Nombre de roue : <?=  $car->getWheels() ?></p>
+<p>Kilométrage : <?= $car->getKilometrage() ?></p>
+<p>Airbag : <?= $car->getAirbag() ?></p>
+<p>Abs : <?= $car->getAbs() ?></p>
+<p>Nombre de porte : <?= $car->getDoors() ?></p>
+
 	
 </body>
 </html>
