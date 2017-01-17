@@ -17,6 +17,18 @@ class Car {
 		return $this->wheels;
 	}
 
+	public function setWheels($value) {
+		$this->wheels = $value;
+	}
+
+	public function getKilometrage() {
+		return $this->kilometrage;
+	}
+
+	public function setKilometrage($value) {
+		$this->kilometrage = $value;
+	}
+
 	/**
 	 * Retrourne une chaîne de caractère
 	 * 
@@ -50,4 +62,24 @@ class Car {
 		$this->airbag = $available;
 	}
 
+	public function getAbs() {
+		return $this->abs;
+	}
+
+	public function setAbs($value) {
+		$this->abs = $value;
+	}
+
+	public function getDoors() {
+		return $this->doors;
+	}
+
+	public function setDoors($value) {
+		$this->doors = $value;
+	}
+
 }
+
+//car = getter / setter / my car = constructeur et définir les propriétés de ma voiture 
+//index.php = afficher les proriétés de ma voiture 
+//last étape = créer un formulaire qui modifie ces proriétés et dans my car une function saveFile qui créé un json de ma voiture
